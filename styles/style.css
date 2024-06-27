@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "texto";
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "titulo";
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(243, 229, 216);
+    font-family: "texto", sans-serif;
+    font-size: 0.85em;
+    font-weight: 400;
+    color: rgb(80, 80, 80);
+    list-style-position: inside;
+}
+
+main {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
+
+    width: 550px;
+    padding: 20px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > img {
+    width: 550px;
+}
+
+main > h1, h2 {
+    font-family: "titulo", serif;
+    font-weight: 400;
+    margin: 15px 0px;
+    color: hsl(0, 59%,30%);
+}
+
+section {
+    background-color: rgb(255, 247, 252);
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 20px;
+}
+
+section > h2 {
+    margin: 0px;
+    font-family: "texto", sans-serif;
+    font-size: 1.1em;
+}
+
+section > ul {
+    margin: 0px;
+}
+
+p {
+    margin-bottom: 22px;
+}
+
+ol, ul {
+    margin: 0px 0px 22px 0px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+table {
+    width: 550px;
+    border-collapse: collapse;
+  }
+
+td, th {
+    height: 32px; 
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+th {
+    text-align: left;
+    text-indent: 22px;
+    font-weight: normal;
+}
+
+td {
+    color: hsl(0, 59%,30%);
+    font-weight: bold;
+    text-indent: 70px;
+}
